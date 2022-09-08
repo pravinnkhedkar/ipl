@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-image: url('http://localhost:2000/stadium.jpg');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.row{
+  max-width: 1000px;
+}
+
+img{
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+}
+
+img:hover{
+  cursor: pointer;
+  opacity: 90%;
+}
